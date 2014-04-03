@@ -1,0 +1,11 @@
+name = portfolio_theme_feature
+description = all the theme configuration
+core = 7.x
+package = Features
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = theme_default
+features[variable][] = theme_omega_settings
+features[variable][] = theme_portfolio_settings
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][strongarm] = strongarm
