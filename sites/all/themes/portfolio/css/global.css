@@ -1,0 +1,241 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+.page {
+	background: #A1948E url(../images/bg.png);
+}
+h1{
+  
+  font-size:18px;
+}
+
+.logo-img {
+float: left;
+margin-right: 20px;
+
+}
+
+.front .logo-img {
+margin-bottom: -74px;
+}
+
+.breadcrumb {
+padding-bottom: 0.5em;
+display: none;
+}
+
+#block-menu-menu-top-menu{
+  margin-top: 3px;
+}
+
+#block-menu-menu-top-menu ul li a:hover {
+cursor: pointer;
+width: 55px;
+padding: 7px 7px 7px 7px;
+background: #313236;
+color: #E4E4E4;
+}
+
+#block-menu-menu-top-menu ul li a,
+#block-menu-menu-top-right-menu ul li a{
+width:55px;
+font-size: 1em;
+text-decoration: none;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+}
+
+#block-menu-menu-top-right-menu ul li a {
+display: inline-block;
+cursor: pointer;
+position: relative;
+padding: 5px 21px 5px 16px;
+background: #313236;
+float: right;
+color: #E4E4E4;
+
+
+}
+#block-menu-menu-top-right-menu ul li {
+  margin-top:-2px
+}
+
+html{
+  
+  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif
+}
+
+a:link, a:visited {
+color: #5e534e;
+text-decoration: underline;
+}
+
+a:active,
+li a.active{
+  color:#5e534e;
+}
+
+
+body {
+font: 12px/20px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+color: #5e534e;
+}
+
+#section-header{
+  border-top:6px solid #333;
+  
+}
+#first-time {
+ display: none;
+}
+
+.front #page-title {
+  display: none;
+}
+
+
+#block-menu-menu-top-menu .block-title {
+display: none;
+}
+#block-views-projects-block-1 table{
+  background-color:white;
+  background-color: white;
+  border: 1px solid;
+  border-style: dotted;
+  border-left: 0;
+  border-right: 0;
+
+}
+#block-views-projects-block-1 .block-title {
+font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
+color: #4f4640;
+font-size: 15px;
+font-weight:normal;
+padding: 2px 0 5px 28px;
+ background: url(../images/down.png) no-repeat 0px 3px;
+ text-rendering: optimizeLegibility;
+}
+
+.views-field.views-field-title a {
+font-weight: bold;
+text-decoration: none;
+}
+
+.views-field.views-field-field-screenshot img {
+border: 1px solid #fff;
+box-shadow: 0 1px 4px rgba(0,0,0,.2);
+padding: 1px;
+}
+
+#node-page-8 {
+border: 1px solid white;
+box-shadow: 0 1px 4px rgba(0,0,0,.2);
+padding: 3px;
+background-color:white;
+}
+
+#region-preface-third{
+  text-transform: none;
+color: #333;
+float: right;
+letter-spacing: normal;
+font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+width: 462px;
+}
+
+ul li.leaf{
+  display:inline-block;
+}
+
+#region-user-first {
+width: auto;
+display: inline-block;
+}
+
+#region-user-second {
+float: right;
+width:auto;
+
+}
+
+#block-menu-menu-top-right-menu h2 {
+display: none;
+}
+
+.view.view-projects.view-id-projects.view-display-id-block_2 p {
+margin-bottom: 0px;
+}
+.view.view-projects.view-id-projects.view-display-id-block_2 table {
+ border: none;
+}
+
+.view.view-projects.view-id-projects.view-display-id-block_1{
+  border-image:url('images/layout/border-img.png') 0 0 repeat-x;
+  
+}
+
+/*individual project pages*/
+
+.field.field-name-field-taxonomy.field-type-taxonomy-term-reference.field-label-hidden {
+float: left;
+margin-top: 40px;
+margin-left: -106px;
+border: 1px solid;
+padding: 5px;
+width: inherit;
+}
+
+.field.field-name-field-url.field-type-text.field-label-hidden {
+float: left;
+margin-top: 5px;
+border: 1px solid;
+padding: 5px;
+margin-left: 12px;
+}
+
+.field.field-name-body.field-type-text-with-summary.field-label-inline {
+width: 320px;
+padding: 17px;
+border: 1px solid black;
+margin-left: 492px;
+height: 158px
+}
+
+.field.field-name-field-screenshot.field-type-image.field-label-hidden {
+  float: left;
+}
+
+/*postscript zone*/
+#zone-postscript {
+border-bottom: 1px black solid;
+border-bottom-style: dotted;
+}
+#region-postscript-first {
+  width: auto;
+}
+
+#block-views-worked-for-block .block-title {
+  padding: 2px 0 15px 28px;
+  font-weight: normal;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  
+  color:#4f4640;
+  background: url(../images/tools2.png) no-repeat 0px 3px;
+}
+
+#block-views-worked-for-block {
+  margin-bottom: 26px;
+}
+
+/*copy right block*/
+
+#block-copyright-block-copyright-block {
+  float: right;
+}
+
+/*footer*/
+
+#section-footer {
+padding: 7px 0 13px;
+}
