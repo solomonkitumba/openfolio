@@ -43,6 +43,7 @@ font-size: 1em;
 text-decoration: none;
 letter-spacing: 0.04em;
 text-transform: uppercase;
+padding: 7px 7px 7px 7px;
 }
 
 #block-menu-menu-top-right-menu ul li a {
@@ -66,8 +67,8 @@ html{
 }
 
 a:link, a:visited {
-color: #5e534e;
-text-decoration: underline;
+  color: #5e534e;
+  text-decoration: underline;
 }
 
 a:active,
@@ -77,9 +78,10 @@ li a.active{
 
 
 body {
-font: 12px/20px 'Merriweather', Georgia, "Times New Roman", Times, serif;
-color: #5e534e;
+  font: 12px/20px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+  color: #5e534e;
 }
+
 
 #section-header{
   border-top:6px solid #333;
@@ -95,7 +97,7 @@ color: #5e534e;
 
 
 #block-menu-menu-top-menu .block-title {
-display: none;
+  display: none;
 }
 #block-views-projects-block-1 table{
   background-color:white;
@@ -107,40 +109,40 @@ display: none;
 
 }
 #block-views-projects-block-1 .block-title {
-font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
-color: #4f4640;
-font-size: 15px;
-font-weight:normal;
-padding: 2px 0 5px 28px;
- background: url(../images/down.png) no-repeat 0px 3px;
- text-rendering: optimizeLegibility;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
+  color: #4f4640;
+  font-size: 15px;
+  font-weight:normal;
+  padding: 2px 0 5px 28px;
+  background: url(../images/down.png) no-repeat 0px 3px;
+  text-rendering: optimizeLegibility;
 }
 
 .views-field.views-field-title a {
-font-weight: bold;
-text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .views-field.views-field-field-screenshot img {
-border: 1px solid #fff;
-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-padding: 1px;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  padding: 1px;
 }
 
 #node-page-8 {
-border: 1px solid white;
-box-shadow: 0 1px 4px rgba(0,0,0,.2);
-padding: 3px;
-background-color:white;
+  border: 1px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  padding: 3px;
+  background-color:white;
 }
 
 #region-preface-third{
   text-transform: none;
-color: #333;
-float: right;
-letter-spacing: normal;
-font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
-width: 462px;
+  color: #333;
+  float: right;
+  letter-spacing: normal;
+  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+  width: 462px;
 }
 
 ul li.leaf{
@@ -148,25 +150,25 @@ ul li.leaf{
 }
 
 #region-user-first {
-width: auto;
-display: inline-block;
+  width: auto;
+  display: inline-block;
 }
 
 #region-user-second {
-float: right;
-width:auto;
+  float: right;
+  width:auto;
 
 }
 
 #block-menu-menu-top-right-menu h2 {
-display: none;
+  display: none;
 }
 
 .view.view-projects.view-id-projects.view-display-id-block_2 p {
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .view.view-projects.view-id-projects.view-display-id-block_2 table {
- border: none;
+  border: none;
 }
 
 .view.view-projects.view-id-projects.view-display-id-block_1{
@@ -176,39 +178,29 @@ margin-bottom: 0px;
 
 /*individual project pages*/
 
-.field.field-name-field-taxonomy.field-type-taxonomy-term-reference.field-label-hidden {
-float: left;
-margin-top: 40px;
-margin-left: -106px;
-border: 1px solid;
-padding: 5px;
-width: inherit;
+.view.view-projects.view-id-projects.view-display-id-block_3 .views-field.views-field-body{
+ 
+  margin: 39px 0 5px -143px;
+  border: 1px solid gray;
+  padding: 5px;
+  
 }
 
-.field.field-name-field-url.field-type-text.field-label-hidden {
-float: left;
-margin-top: 5px;
-border: 1px solid;
-padding: 5px;
-margin-left: 12px;
+.view.view-projects.view-id-projects.view-display-id-block_3 .views-field.views-field-field-url,
+.view.view-projects.view-id-projects.view-display-id-block_3 .views-field.views-field-field-taxonomy{
+  padding: 5px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+  
 }
 
-.field.field-name-body.field-type-text-with-summary.field-label-inline {
-width: 320px;
-padding: 17px;
-border: 1px solid black;
-margin-left: 492px;
-height: 158px
-}
 
-.field.field-name-field-screenshot.field-type-image.field-label-hidden {
-  float: left;
-}
 
 /*postscript zone*/
+
 #zone-postscript {
-border-bottom: 1px black solid;
-border-bottom-style: dotted;
+  border-bottom: 1px black solid;
+  border-bottom-style: dotted;
 }
 #region-postscript-first {
   width: auto;
@@ -237,5 +229,5 @@ border-bottom-style: dotted;
 /*footer*/
 
 #section-footer {
-padding: 7px 0 13px;
+  padding: 7px 0 13px;
 }
