@@ -1,64 +1,31 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+/*========================================================================
+                          General styles
+ =========================================================================*/
 .page {
-	background: #A1948E url(../images/bg.png);
+   background: #A1948E url(../images/bg.png);
 }
+
 h1{
   
   font-size:18px;
 }
 
 .logo-img {
-float: left;
-margin-right: 20px;
+  float: left;
+  margin-right: 20px
 
 }
 
 .front .logo-img {
-margin-bottom: -74px;
+  margin-bottom: -74px;
 }
 
 .breadcrumb {
-padding-bottom: 0.5em;
-display: none;
-}
-
-#block-menu-menu-top-menu{
-  margin-top: 3px;
-}
-
-#block-menu-menu-top-menu ul li a:hover {
-cursor: pointer;
-width: 55px;
-padding: 7px 7px 7px 7px;
-background: #313236;
-color: #E4E4E4;
-}
-
-#block-menu-menu-top-menu ul li a,
-#block-menu-menu-top-right-menu ul li a{
-width:55px;
-font-size: 1em;
-text-decoration: none;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-padding: 7px 7px 7px 7px;
-}
-
-#block-menu-menu-top-right-menu ul li a {
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-  padding: 5px 21px 5px 16px;
-  background: #313236;
-  float: right;
-  color: #E4E4E4;
-
-
-}
-#block-menu-menu-top-right-menu ul li {
-  margin-top:-2px
+  padding-bottom: 0.5em;
+  display: none;
 }
 
 html{
@@ -82,23 +49,127 @@ body {
   color: #5e534e;
 }
 
-
-#section-header{
-  border-top:6px solid #333;
-  
-}
 #first-time {
- display: none;
+  display: none;
 }
 
 .front #page-title {
   display: none;
 }
 
+/*========================================================================
+                         Header styles
+ =========================================================================*/
+
+#section-header{
+  border-top:6px solid #333;
+  
+}
+
+/*========================================================================
+                         top menu
+ =========================================================================*/
+
+#block-menu-menu-top-menu{
+  margin-top: 3px;
+}
+
+#block-menu-menu-top-menu ul li a:hover {
+  cursor: pointer;
+  width: 55px;
+  padding: 7px 7px 7px 7px;
+  background: #313236;
+  color: #E4E4E4;
+}
+
+#block-menu-menu-top-menu ul li a,
+#block-menu-menu-top-right-menu ul li a{
+  width:55px;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 7px 7px 7px 7px;
+}
+
+#block-menu-menu-top-right-menu ul li a {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 21px 5px 16px;
+  background: #313236;
+  float: right;
+  color: #E4E4E4;
+}
+#block-menu-menu-top-right-menu ul li {
+  margin-top:-2px
+}
+
+#block-menu-menu-top-right-menu h2 {
+  display: none;
+}
 
 #block-menu-menu-top-menu .block-title {
   display: none;
 }
+
+#node-page-8 {
+  border: 1px solid white;
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  padding: 3px;
+  background-color:white;
+}
+
+
+
+ul li.leaf{
+  display:inline-block;
+}
+
+/*========================================================================================
+                                Region user
+ =========================================================================================*/
+
+#region-user-first {
+  width: auto;
+  display: inline-block;
+}
+
+#region-user-second {
+  float: right;
+  width:auto;
+
+}
+
+/*========================================================================================
+                               preface region
+ =========================================================================================*/
+
+#region-preface-third{
+  text-transform: none;
+  color: #333;
+  float: right;
+  letter-spacing: normal;
+  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+  width: 462px;
+}
+
+/*========================================================================================
+                                projects view
+ =========================================================================================*/
+
+.view.view-projects.view-id-projects.view-display-id-block_2 p {
+  margin-bottom: 0px;
+}
+.view.view-projects.view-id-projects.view-display-id-block_2 table {
+  border: none;
+}
+
+.view.view-projects.view-id-projects.view-display-id-block_1{
+  border-image:url('images/layout/border-img.png') 0 0 repeat-x;
+  
+}
+
 #block-views-projects-block-1 table{
   background-color: white;
   border: 1px solid;
@@ -108,6 +179,7 @@ body {
   margin-bottom:7px;
 
 }
+
 #block-views-projects-block-1 .block-title {
   font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
   color: #4f4640;
@@ -129,54 +201,9 @@ body {
   padding: 1px;
 }
 
-#node-page-8 {
-  border: 1px solid white;
-  box-shadow: 0 1px 4px rgba(0,0,0,.2);
-  padding: 3px;
-  background-color:white;
-}
-
-#region-preface-third{
-  text-transform: none;
-  color: #333;
-  float: right;
-  letter-spacing: normal;
-  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
-  width: 462px;
-}
-
-ul li.leaf{
-  display:inline-block;
-}
-
-#region-user-first {
-  width: auto;
-  display: inline-block;
-}
-
-#region-user-second {
-  float: right;
-  width:auto;
-
-}
-
-#block-menu-menu-top-right-menu h2 {
-  display: none;
-}
-
-.view.view-projects.view-id-projects.view-display-id-block_2 p {
-  margin-bottom: 0px;
-}
-.view.view-projects.view-id-projects.view-display-id-block_2 table {
-  border: none;
-}
-
-.view.view-projects.view-id-projects.view-display-id-block_1{
-  border-image:url('images/layout/border-img.png') 0 0 repeat-x;
-  
-}
-
-/*individual project pages*/
+/*========================================================================================
+                                individual project pages
+ =========================================================================================*/
 
 .view.view-projects.view-id-projects.view-display-id-block_3 .views-field.views-field-body{
  
@@ -195,13 +222,17 @@ ul li.leaf{
 }
 
 
+/*===============================================================================
+                       postscript zone
+  ===============================================================================*/
 
-/*postscript zone*/
 
 #zone-postscript {
   border-bottom: 1px black solid;
   border-bottom-style: dotted;
 }
+
+
 #region-postscript-first {
   width: auto;
 }
@@ -220,14 +251,21 @@ ul li.leaf{
   margin-bottom: 10px;
 }
 
-/*copy right block*/
+
+/*==================================================================================
+                                    footer
+====================================================================================*/
+
+#section-footer {
+
+  padding: 7px 0 13px;
+  
+}
+
+/*===========================================================================
+                        copy right block
+=============================================================================*/
 
 #block-copyright-block-copyright-block {
   float: right;
-}
-
-/*footer*/
-
-#section-footer {
-  padding: 7px 0 13px;
 }
