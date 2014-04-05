@@ -47,13 +47,13 @@ padding: 7px 7px 7px 7px;
 }
 
 #block-menu-menu-top-right-menu ul li a {
-display: inline-block;
-cursor: pointer;
-position: relative;
-padding: 5px 21px 5px 16px;
-background: #313236;
-float: right;
-color: #E4E4E4;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 21px 5px 16px;
+  background: #313236;
+  float: right;
+  color: #E4E4E4;
 
 
 }
@@ -100,12 +100,12 @@ body {
   display: none;
 }
 #block-views-projects-block-1 table{
-  background-color:white;
   background-color: white;
   border: 1px solid;
   border-style: dotted;
   border-left: 0;
   border-right: 0;
+  margin-bottom:7px;
 
 }
 #block-views-projects-block-1 .block-title {
@@ -217,7 +217,7 @@ ul li.leaf{
 }
 
 #block-views-worked-for-block {
-  margin-bottom: 26px;
+  margin-bottom: 10px;
 }
 
 /*copy right block*/
