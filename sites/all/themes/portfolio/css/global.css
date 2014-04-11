@@ -242,7 +242,6 @@ ul li.leaf{
   font-weight: normal;
   font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
   font-size: 14px;
-  
   color:#4f4640;
   background: url(../images/tools2.png) no-repeat 0px 3px;
 }
@@ -251,6 +250,24 @@ ul li.leaf{
   margin-bottom: 10px;
 }
 
+/*==================================================================================
+                                    contact us page
+====================================================================================*/
+
+.views-field.views-field-field-profile-picture img {
+   border-radius: 46px;
+   margin-left: 17px;
+   border: 1px solid #333;
+}
+
+#edit-submit {
+  background: #333;
+  color: white;
+  border-radius: 0;
+  border-color: black;
+  box-shadow: none;
+  text-shadow: none;
+}
 
 /*==================================================================================
                                     footer
