@@ -13,6 +13,14 @@ h1{
   font-size:18px;
 }
 
+h2.node-title{
+
+   font-size:18px;
+   text-transform:capitalize;
+   color:#333;
+
+}
+
 .logo-img {
   float: left;
   margin-right: 20px
@@ -93,14 +101,20 @@ body {
 }
 
 #block-menu-menu-top-right-menu ul li a {
+
   display: inline-block;
   cursor: pointer;
   position: relative;
-  padding: 5px 21px 5px 16px;
-  background: #313236;
+  padding: 3px 21px 5px 16px;
+  background: #333;
   float: right;
   color: #E4E4E4;
+  height: 17px;
+  border: 2px solid gray;
+  border-top: 0;
+
 }
+
 #block-menu-menu-top-right-menu ul li {
   margin-top:-2px
 }
@@ -144,6 +158,27 @@ ul li.leaf{
 /*==================================================================================
                                     blog
 ====================================================================================*/
+
+.node-links ul .blog_usernames_blog {
+  display: none;
+}
+
+.node-links ul li a, .comment-links ul li a{
+   border:2px solid gray;
+   background: #333;
+   border-radius: 0;
+   color: white;
+   text-shadow: none;
+   text-transform: inherit;
+}
+
+.node-links ul li a:hover,
+ .comment-links ul li a:hover{
+   border:2px solid gray; 
+   background: white;
+   color:#333;
+
+ }
 
 
 
@@ -191,7 +226,7 @@ ul li.leaf{
   color: #4f4640;
   font-size: 15px;
   font-weight:normal;
-  padding: 2px 0 5px 28px;
+  padding: 2px 0 2px 28px;
   background: url(../images/down.png) no-repeat 0px 3px;
   text-rendering: optimizeLegibility;
 }
@@ -205,7 +240,40 @@ ul li.leaf{
   border: 1px solid #fff;
   box-shadow: 0 1px 4px rgba(0,0,0,.2);
   padding: 1px;
+  margin-bottom:2px;
 }
+
+
+.views-exposed-form .views-exposed-widget {
+  float: right;
+  width: 297px;
+  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  margin-right: -13px;
+}
+
+.views-exposed-widgets {
+  margin-bottom: 1px;
+}
+
+
+
+#views-exposed-form-projects-block-1 a {
+  float: left;
+  margin-left: 8px;
+  border: 2px solid gainsboro;
+  text-decoration: none;
+  padding: 1px 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+#views-exposed-form-projects-block-1 a:hover{
+  background-color: #333;
+  color:white;
+
+}
+
 
 /*========================================================================================
                                 individual project pages
@@ -214,7 +282,7 @@ ul li.leaf{
 .view.view-projects.view-id-projects.view-display-id-block_3 .views-field.views-field-body{
  
   margin: 39px 0 5px -143px;
-  border: 1px solid gray;
+  border: 2px solid gainsboro;
   padding: 5px;
   
 }
@@ -222,7 +290,7 @@ ul li.leaf{
 .view.view-projects.view-id-projects.view-display-id-block_3 .views-field.views-field-field-url,
 .view.view-projects.view-id-projects.view-display-id-block_3 .views-field.views-field-field-taxonomy{
   padding: 5px;
-  border: 1px solid gray;
+  border: 2px solid gainsboro;
   margin-bottom: 5px;
   
 }
@@ -254,6 +322,11 @@ ul li.leaf{
 
 #block-views-worked-for-block {
   margin-bottom: 10px;
+  width:auto;
+}
+
+#block-views-worked-for-block img {
+   float: left;
 }
 
 /*==================================================================================
@@ -273,10 +346,16 @@ ul li.leaf{
   border-color: black;
   box-shadow: none;
   text-shadow: none;
+  border:2px solid gray;
 }
 
 #block-views-worked-for-block-1 {
-padding: 15px;
+  padding: 15px;
+}
+
+.form-textarea-wrapper.resizable.textarea-processed.resizable-textarea, 
+#edit-submitted-message {
+  width: 399px;
 }
 
 /*==================================================================================
@@ -305,6 +384,9 @@ padding: 15px;
   background-color: #333;
   border-radius: 100%;
   border: 4px solid gray;
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
+}
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
+background: #FFF;
 }
