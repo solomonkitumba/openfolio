@@ -435,6 +435,7 @@ function portfolio_theme_feature_strongarm() {
     'toggle_secondary_menu' => 0,
     'default_logo' => 0,
     'logo_path' => 'public://solomonlogothink.png',
+    'logo_upload' => '',
     'default_favicon' => 0,
     'favicon_path' => 'public://solomonfavicon.png',
     'favicon_upload' => '',

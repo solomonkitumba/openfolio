@@ -13,6 +13,39 @@ function portfolio_base_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'contact';
+  $context->description = 'context for contact';
+  $context->tag = 'pages';
+  $context->conditions = array(
+    'menu' => array(
+      'values' => array(
+        'node/4' => 'node/4',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-worked_for-block_1' => array(
+          'module' => 'views',
+          'delta' => 'worked_for-block_1',
+          'region' => 'sidebar_first',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('context for contact');
+  t('pages');
+  $export['contact'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'index_page';
   $context->description = 'all effects on the index page';
   $context->tag = 'pages';
