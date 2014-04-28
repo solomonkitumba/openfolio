@@ -6,6 +6,7 @@ dependencies[] = cck
 dependencies[] = context_ui
 dependencies[] = copyright_block
 dependencies[] = features
+dependencies[] = followbutton
 dependencies[] = libraries
 dependencies[] = menu
 dependencies[] = omega_tools
