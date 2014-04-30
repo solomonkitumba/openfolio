@@ -335,8 +335,10 @@ ul li.leaf{
 
 .views-field.views-field-field-profile-picture img {
    border-radius: 100%;
-   margin-left: 46px;
-   border: 1px solid #333;
+   margin-left: 30px;
+  border: 2px solid gainsboro;
+  width: 110px;
+  height: 127px;
 }
 
 #edit-submit {
@@ -351,6 +353,7 @@ ul li.leaf{
 
 #block-views-worked-for-block-1 {
   padding: 15px;
+  border:2px solid gainsboro;
 }
 
 .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea, 
@@ -387,6 +390,23 @@ ul li.leaf{
   width: 32px;
   height: 32px;
 }
+
 tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
-background: #FFF;
+  background: #FFF;
+}
+
+/*===========================================================================
+                        twitter follow button
+=============================================================================*/
+
+
+#block-followbutton-followbutton {
+  float: right;
+  margin-right: -372px;
+  background: url(../images/twitter.png) no-repeat 56px 2px;
+  padding-left: 74px;
+}
+
+#block-followbutton-followbutton h2 {
+  display: none;
 }
