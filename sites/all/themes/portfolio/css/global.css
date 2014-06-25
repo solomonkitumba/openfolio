@@ -36,9 +36,15 @@ h2.node-title{
   display: none;
 }
 
-html{
+p{
   
-  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif
+  font-family:"Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
+}
+
+html,
+{
+  
+  font: normal 15px/22px "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
 }
 
 a:link, a:visited {
@@ -53,7 +59,7 @@ li a.active{
 
 
 body {
-  font: 12px/20px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+  font: 12px/20px "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
   color: #5e534e;
 }
 
@@ -98,6 +104,7 @@ body {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   padding: 7px 7px 7px 7px;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
 }
 
 #block-menu-menu-top-right-menu ul li a {
@@ -191,7 +198,7 @@ ul li.leaf{
   color: #333;
   float: right;
   letter-spacing: normal;
-  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+  font: normal 15px/22px "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
   width: 462px;
 }
 
@@ -201,6 +208,7 @@ ul li.leaf{
 
 .view.view-projects.view-id-projects.view-display-id-block_2 p {
   margin-bottom: 0px;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
 }
 .view.view-projects.view-id-projects.view-display-id-block_2 table {
   border: none;
@@ -209,6 +217,10 @@ ul li.leaf{
 .view.view-projects.view-id-projects.view-display-id-block_1{
   border-image:url('images/layout/border-img.png') 0 0 repeat-x;
   
+}
+
+#block-views-projects-block-1 table td {
+padding: 1px 16px;
 }
 
 #block-views-projects-block-1 table{
@@ -229,11 +241,13 @@ ul li.leaf{
   padding: 2px 0 2px 28px;
   background: url(../images/down.png) no-repeat 0px 3px;
   text-rendering: optimizeLegibility;
+  margin-bottom: -35px;
 }
 
 .views-field.views-field-title a {
   font-weight: bold;
   text-decoration: none;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
 }
 
 .views-field.views-field-field-screenshot img {
@@ -246,10 +260,10 @@ ul li.leaf{
 
 .views-exposed-form .views-exposed-widget {
   float: right;
-  width: 297px;
-  font: normal 15px/22px 'Merriweather', Georgia, "Times New Roman", Times, serif;
+  width: 305px;
+  font: normal 15px/22px "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
   font-size: 1em;
-  margin-right: -13px;
+  margin-right: -33px;
 }
 
 .views-exposed-widgets {
@@ -260,12 +274,13 @@ ul li.leaf{
 
 #views-exposed-form-projects-block-1 a {
   float: left;
-  margin-left: 8px;
+  margin-left: 3px;
   border: 2px solid gainsboro;
   text-decoration: none;
   padding: 1px 4px;
   background-color: #fff;
   color: #333;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
 }
 
 #views-exposed-form-projects-block-1 a:hover{
@@ -293,6 +308,10 @@ ul li.leaf{
   border: 2px solid gainsboro;
   margin-bottom: 5px;
   
+}
+
+#block-views-projects-block-3 .views-field-field-url a {
+font-weight: bold;
 }
 
 
@@ -352,8 +371,12 @@ ul li.leaf{
 }
 
 #block-views-worked-for-block-1 {
-  padding: 15px;
+  padding: 12px;
   border:2px solid gainsboro;
+}
+
+.view.view-worked-for.view-id-worked_for.view-display-id-block_1 a {
+font-weight: bold;
 }
 
 .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea, 
@@ -377,7 +400,14 @@ ul li.leaf{
 
 #block-copyright-block-copyright-block {
   float: right;
+  font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
 }
+
+#block-system-powered-by,
+.btn .label b {
+font-family: "Yanone Kaffeesatz", Arial, Helvetica, sans-serif;
+}
+
 
 /*===========================================================================
                         back to top button
@@ -390,23 +420,17 @@ ul li.leaf{
   width: 32px;
   height: 32px;
 }
-
 tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
-  background: #FFF;
+background: #FFF;
 }
 
-/*===========================================================================
-                        twitter follow button
-=============================================================================*/
-
-
 #block-followbutton-followbutton {
-  float: right;
-  margin-right: -372px;
-  background: url(../images/twitter.png) no-repeat 56px 2px;
-  padding-left: 74px;
+float: right;
+margin-right: -372px;
+background: url(../images/twitter.png) no-repeat 56px 2px;
+padding-left: 74px;
 }
 
 #block-followbutton-followbutton h2 {
-  display: none;
+display: none;
 }
